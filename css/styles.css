@@ -37,13 +37,13 @@ body {
     position: relative;
 }
 input[type="checkbox"] {
-    margin:30px 25px;
+    margin: 7% 25px;
 }
 input[type="checkbox"]:checked {
     background-color: #a33d27;
 }
 .item-text {
-    margin:23px 10px;
+    margin:5% 10px;
     color: #857e7d;
     font-size: 1.3rem;
 }
@@ -111,6 +111,7 @@ footer {
         padding-top: 20px;
     }
     .item-text {
+        margin:5.9% 10px;
         font-size: 1.1rem;
     }
     input[type="text"] {
