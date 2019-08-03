@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.min.css">
+</head>
+<body>
+    <div class="title-box">
+        <h1 class="title">Time</h1>
+    </div>
+    <div class="big-container">
+        <div class="ul-box">
+            <div class="item-box">
+                <input type="checkbox">
+                <p class="item-text" contenteditable="true">Buy Food</p>
+                <span class="close">x</span>
+            </div>
+            <div class="item-box">
+                <input type="checkbox">
+                <p class="item-text" contenteditable="true">Cook Food</p>
+                <span class="close">x</span>
+            </div>
+            <div class="item-box">
+                <input type="checkbox" checked>
+                <p class="item-text" contenteditable="true">Exercise</p>
+                <span class="close">x</span>
+            </div>
+        </div>
+        <div class="form-box">
+            <input class="form-input" type="text" name="newItem" placeholder="Add a new item here..." autocomplete="off" maxlength="20">
+            <div class="btn" onclick="newItem()">+</div>
+        </div>
+    </div>
+    
+    <footer>© Made by Xu, 2019</footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.min.js"></script>
+</body>
+</html>

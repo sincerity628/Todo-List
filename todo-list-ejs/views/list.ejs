@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="title-box">
+        <h1 class="title"><%= listTitle %></h1>
+    </div>
+    <div class="ul-box">
+        <% for(let i = 0; i < list.length; i++) { %>
+            <div class="item-box">
+                <input type="checkbox">
+                <p class="item-text"><%= list[i] %></p>
+            </div>
+        <% } %>
+        <div class="form-box">
+            <form class="form" action="/" method="POST">
+                <input type="text" name="newItem" placeholder="Add a new item here..." autocomplete="off">
+                <button type="submit" name="list" value=<%= listTitle %></button>+</button>
+            </form>
+        </div>
+    </div>
+    
+    <footer>© Made by Xu in USA, 2019</footer>
+</body>
+</html>

@@ -1,0 +1,86 @@
+html {
+    background-color: #f6ecd3;
+    background-image: -webkit-linear-gradient(65deg, #a33d27 50%, #f6ecd3 50%);
+    min-height: 1000px;
+    font-family: 'helvetica neue';
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.title-box {
+    background-color: #a33d27;
+    width: 28%;
+    height: 65px;
+    margin: 3.5% auto;
+    border-radius: 7px;
+    box-shadow:2px 3px 3px #8a8180;
+}
+.title {
+    padding-top: 10px;
+    color: #fff;
+}
+.ul-box {
+    background-color: #fff;
+    width: 28%;
+    margin: 5px auto 90px;
+    border-radius: 7px;
+    box-shadow:2px 2px 5px #aa9390;
+    padding-bottom: 5px;
+}
+.item-box {
+    border-bottom: #f0eeee solid 1px;
+    display: flex;
+    height: 70px;
+}
+input[type="checkbox"] {
+    margin:30px 25px;
+}
+input[type="checkbox"]:checked {
+    background-color: #a33d27;
+}
+.item-text {
+    margin:23px 10px;
+    color: #857e7d;
+    font-size: 1.3rem;
+}
+:checked+p {
+    text-decoration: line-through #a33d27;
+    color: #c5b9b7;
+}
+.form-box {
+    margin-top: 15px;
+}
+input[type="text"] {
+    border: none;
+    height: 50px;
+    width: 70%;
+    font-size: 1.3rem;
+    text-align: center;
+}
+input[type="text"]:focus {
+    outline: none;
+    border-bottom: #a33d27 solid 3px;
+}
+button {
+    outline: none;
+    width: 50px;
+    height: 50px;
+    background-color: #a33d27;
+    border-radius: 50%;
+    margin-bottom: 8px;
+    color: #fff;
+    font-size: 1.8rem;
+    padding-bottom: 4px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #582215;
+}
+footer {
+    color: #ceb0a9;
+}
+
+/* 我从雾霾之中走来，穿着蓝色塑料袋的小孩 */
