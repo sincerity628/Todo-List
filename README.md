@@ -215,9 +215,9 @@ input:checked+p {
 
 3. 不足
 
-   * 点击页面刷新后，一夜回到解放前，啥也没了，可以通过使用本地存储解决此问题
-   学习链接（https://codepen.io/csdev/pen/NNEzPN） 
-   ![drawbacks](markdown-img/11.png)
+* 点击页面刷新后，一夜回到解放前，啥也没了，可以通过使用本地存储解决此问题
+学习链接（https://codepen.io/csdev/pen/NNEzPN） 
+![drawbacks](markdown-img/11.png)
 
 <h6 id="steps-js">实现过程</h6>
 思路很简单，就是通过dom在一定条件下控制html页面中的元素从而达到添加元素、删除元素的目的，添加已完成标记的方式与ejs版本一致。
