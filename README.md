@@ -41,9 +41,9 @@ ejs (https://ejs.co) ，加上它可以使用简单的js生成html，就减轻�
 
 3. 不足
 
-   * 若是在此基础上继续添加新的待做事项，原本的标记将会自动清空
-   ![drawbacks](markdown-img/6.png)
-   * 没有事件删除功能
+* 若是在此基础上继续添加新的待做事项，原本的标记将会自动清空
+![drawbacks](markdown-img/6.png)
+* 没有事件删除功能
 
 <h6 id="steps-ejs">实现过程</h6>
 
