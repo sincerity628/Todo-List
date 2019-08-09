@@ -137,7 +137,7 @@ app.post("/", function(req, res) {
 });
 ```
 
-   *  查看通过Express使用ejs的方法文档（https://github.com/mde/ejs/wiki/Using-EJS-with-Express）
+   *  查看通过Express使用ejs的方法文档（https://github.com/mde/ejs）
     做相关配置
     
    * 新建一个views文件夹，在其中新建一个index.ejs文件，将之前变编写的html代码粘贴到其中并保存。
