@@ -216,7 +216,7 @@ input:checked+p {
 3. 不足
 
 * 点击页面刷新后，一夜回到解放前，啥也没了，可以通过使用本地存储解决此问题
-学习链接（https://codepen.io/sincerity628-the-bold/pen/NQaNQb） 
+学习链接（ https://codepen.io/sincerity628-the-bold/pen/NQaNQb ） 
 ![drawbacks](markdown-img/11.png)
 
 <h6 id="steps-js">实现过程</h6>
